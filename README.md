@@ -18,7 +18,7 @@ Therefore, we would consider a weighted network where the _weight_ is the physic
 
 There are plenty of algorithms finding all network's cycles [3], one of the more optimal one is the Donald Johnson's 
 algorithm described in _Finding all the elementary circuits of a directed graph_ [4] which time complexity is 
-$O((n + e)(c + 1))$.
+$O((n + e)(c + 1))$ where $n$ is number of nodes, $e$ are edges and $c$ are cycles.
 
 Once we find all the elementary cycles, we loop through all of them and find the one with the longest total distance.
 
